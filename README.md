@@ -4,7 +4,7 @@
 
 Exec command webpaste
 
-![alt text](./usage.png)
+![alt text](https://ptpb.pw/-VJK)
 
 
 ## Features

@@ -2,6 +2,8 @@
     "name": "webpaste",
     "displayName": "webpaste",
     "description": "transplant webpaste from emacs",
+    "repository": {"type": "git","url": "https://github.com/sansroman/webpaste"},
+    "publisher": "tboevil",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.29.0"
