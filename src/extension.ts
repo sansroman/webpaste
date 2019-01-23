@@ -59,7 +59,7 @@ export function activate(context: vscode.ExtensionContext) {
     console.log(options);
     rp(options).then((result: any) => {
       ncp.copy(result.url, () => {
-        vscode.window.showInformationMessage('Pasted from VSCode with webpaste');
+        vscode.window.showInformationMessage(`Copied to pasteboard: ${result.url}`);
       });
     }).catch((err: any) => console.log(err));
   });

@@ -4,7 +4,7 @@
     "description": "transplant webpaste from emacs",
     "repository": {"type": "git","url": "https://github.com/sansroman/webpaste"},
     "publisher": "tboevil",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.29.0"
     },
@@ -30,15 +30,14 @@
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "yarn run compile && node ./node_modules/vscode/bin/test"
     },
-    "devDependencies": {
+    "dependencies": {
+        "copy-paste": "^1.3.0",
+        "request-promise": "^4.2.2",
         "@types/mocha": "^2.2.42",
         "@types/node": "^8.10.25",
         "tslint": "^5.8.0",
         "typescript": "^2.6.1",
         "vscode": "^1.1.21"
     },
-    "dependencies": {
-        "copy-paste": "^1.3.0",
-        "request-promise": "^4.2.2"
-    }
+    "license": "MIT"
 }
